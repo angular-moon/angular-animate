@@ -4,11 +4,12 @@
     "name": "angular-animate",
     "main": "angular-animate.js",
     "dependencies": [
-        "angular"
+        "angular",
+        "css"
     ],
     "shim": {
         "angular-animate.js": {
-            "deps": ["angular"],
+            "deps": ["angular","css!angular-animate.css"],
             "exports": "'ngAnimate'"
         }
     }
