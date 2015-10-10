@@ -43,6 +43,7 @@
 .toggle.ng-hide-add {
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 89, ../sass/ng-animation.scss */
@@ -118,6 +119,7 @@
   -webkit-transform: translateY(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 139, ../sass/ng-animation.scss */
@@ -202,6 +204,7 @@
   -webkit-transform: translateX(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 193, ../sass/ng-animation.scss */
@@ -286,6 +289,7 @@
   -webkit-transform: translateX(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 247, ../sass/ng-animation.scss */
@@ -370,6 +374,7 @@
   -webkit-transform: translateY(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 301, ../sass/ng-animation.scss */
@@ -458,6 +463,7 @@
   -webkit-transform: translateY(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 356, ../sass/ng-animation.scss */
@@ -546,6 +552,7 @@
   -webkit-transform: translateX(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 410, ../sass/ng-animation.scss */
@@ -634,6 +641,7 @@
   -webkit-transform: translateX(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 465, ../sass/ng-animation.scss */
@@ -722,6 +730,7 @@
   -webkit-transform: translateY(0);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 519, ../sass/ng-animation.scss */
@@ -806,6 +815,7 @@
   -webkit-transform: scale(1);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 575, ../sass/ng-animation.scss */
@@ -890,6 +900,7 @@
   -webkit-transform: rotate(0deg);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 629, ../sass/ng-animation.scss */
@@ -974,6 +985,7 @@
   -webkit-transform: scale(1);
   transition-duration: 250ms;
   -webkit-transition-duration: 250ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 684, ../sass/ng-animation.scss */
@@ -1062,6 +1074,7 @@
   -webkit-transform: scale(1);
   transition-duration: 450ms;
   -webkit-transition-duration: 450ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 739, ../sass/ng-animation.scss */
@@ -1146,6 +1159,7 @@
   -webkit-transform: perspective(300px) rotateX(0deg);
   transition-duration: 550ms;
   -webkit-transition-duration: 550ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 794, ../sass/ng-animation.scss */
@@ -1222,9 +1236,9 @@
 }
 /* line 837, ../sass/ng-animation.scss */
 .rotate-in.ng-leave-active {
-  transform: perspective(300px) rotateY(-40deg);
-  -ms-transform: perspective(300px) rotateY(-40deg);
-  -webkit-transform: perspective(300px) rotateY(-40deg);
+  transform: perspective(300px) rotateY(-180deg);
+  -ms-transform: perspective(300px) rotateY(-180deg);
+  -webkit-transform: perspective(300px) rotateY(-180deg);
   opacity: 0.7;
 }
 /* line 843, ../sass/ng-animation.scss */
@@ -1234,6 +1248,7 @@
   -webkit-transform: perspective(300px) rotateY(0deg);
   transition-duration: 550ms;
   -webkit-transition-duration: 550ms;
+  display: block !important;
   opacity: 1;
 }
 /* line 848, ../sass/ng-animation.scss */
